@@ -1,0 +1,108 @@
+body {
+    background: #dbeafe;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Login Card */
+
+.login-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+
+.login-card h2 {
+    font-weight: 700;
+    color: #222;
+}
+
+
+/* Input */
+
+.form-control {
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+
+/* Forgot Password */
+
+.forgot-link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Sign In Button */
+
+.sign-in-btn {
+    height: 48px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+/* Divider */
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    color: #888;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+}
+
+.divider span {
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+
+/* Google Button */
+
+.google-btn {
+    height: 48px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.google-btn:hover {
+    background: #f8f8f8;
+}
+
+
+/* Google Icon */
+
+.google-icon {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+/* Create Account */
+
+.create-link {
+    text-decoration: none;
+    font-weight: 600;
+}
